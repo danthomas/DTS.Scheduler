@@ -1,0 +1,9 @@
+﻿<domain name="DTS.Scheduler">
+  <group name="security">
+    <entity name="Account">
+      <property name="AccountId" sqlServerType="SMALLINT" isAuto="true" isIdentifier="true" />
+      <property name="AccountName" sqlServerType="VARCHAR" length="30" />
+      <property name="Password" sqlServerType="VARCHAR" length="30" />
+    </entity>
+  </group>
+</domain>
